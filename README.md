@@ -17,7 +17,7 @@ void setup()
 
 void draw()
 {
-	serialConnection.startSerialCommincation();
+	serialConnection.startSerialCommunication();
 	if(serialConnection.isReady)
 	{
 		//Do something
