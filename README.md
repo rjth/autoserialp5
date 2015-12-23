@@ -33,8 +33,6 @@ After running your Processing application, connect your serial device to one of 
 
 Also make sure you have the Processing [Serial library](https://github.com/processing/processing/tree/master/java/libraries/serial) installed.
 
-Works on Windows, Mac and Linux.
-
 ## Credits
 
 Thanks to Starting Electronics for their [Find Arduino Port](https://startingelectronics.org/software/processing/find-arduino-port/) example.
