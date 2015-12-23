@@ -18,14 +18,14 @@ class SerialConnection
 
 	void getSerialPorts()
 	{
-    	printArray(serialPort.list());
-    	println("Connect device");
-    	numberOfPorts = serialPort.list().length;
-    	portList = new String[numberOfPorts];
-    	for(int i = 0; i < numberOfPorts; i++)
-    	{
-    	    portList[i] = serialPort.list()[i];
-    	}
+		printArray(serialPort.list());
+		println("Connect device");
+		numberOfPorts = serialPort.list().length;
+		portList = new String[numberOfPorts];
+		for(int i = 0; i < numberOfPorts; i++)
+		{
+			portList[i] = serialPort.list()[i];
+		}
 	}
 
 	void startSerialCommincation()
@@ -65,9 +65,9 @@ class SerialConnection
 	void establishCommunication()
 	{
 		delay(100);
-    	serialPort = new Serial(app, detectedPort, baud);
-    	isReady = true;
-    	println("Serial communication established at: " + detectedPort);
+		serialPort = new Serial(app, detectedPort, baud);
+		isReady = true;
+		println("Serial communication established at: " + detectedPort);
 	}
 
 	void terminateCommunication()
