@@ -59,7 +59,6 @@ class SerialConnection
 	        println("Device detected");
 	        establishCommunication();
 	    }
-	    terminateCommunication();
 	}
 
 	void establishCommunication()
@@ -68,23 +67,5 @@ class SerialConnection
 		serialPort = new Serial(app, detectedPort, baud);
 		isReady = true;
 		println("Serial communication established at: " + detectedPort);
-	}
-
-	void terminateCommunication()
-	{
-		if(keyPressed) if(key == 'œ')
-		{
-			try
-			{
-				serialPort.clear();
-				serialPort.stop();
-				println("Serial communication terminated");
-				exit();
-			}
-			catch(Exception e)
-			{
-				exit();
-			}
-		}
 	}
 }
