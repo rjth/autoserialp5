@@ -28,7 +28,7 @@ class SerialConnection
     	}
 	}
 
-	void startSerialCommincation()
+	void startSerialCommunication()
 	{
 	    if((serialPort.list().length > numberOfPorts) && !deviceDetected)
 	    {
