@@ -1,8 +1,8 @@
 # autoserialp5
 
-Allows "plug and play" serial communication between Processing and Arduino or other serial devices. Works on Windows, Mac and Linux.
+Allows "plug and play" serial communication between Processing and Arduino or other serial devices.
 
-### Example
+## Example
 
 ```java
 import processing.serial.*;
@@ -25,8 +25,7 @@ void draw()
 }
 ```
 	
-
-### Usage
+## Usage
 
 After running your Processing application, connect your serial device to one of the USB ports of your computer. Your device should be recognised and the communication should be established automatically. Before running your application make sure that the serial device is disconnected from your computer.
 
@@ -34,6 +33,8 @@ After running your Processing application, connect your serial device to one of 
 
 Also make sure you have the Processing [Serial library](https://github.com/processing/processing/tree/master/java/libraries/serial) installed.
 
-### Credits
+Works on Windows, Mac and Linux.
+
+## Credits
 
 Thanks to Starting Electronics for their [Find Arduino Port](https://startingelectronics.org/software/processing/find-arduino-port/) example.
