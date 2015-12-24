@@ -1,6 +1,6 @@
 # autoserialp5
 
-Allows "plug and play" serial communication between Processing and Arduino or other serial devices.
+Allows "plug and play" serial communication between Processing and Arduino or other serial devices. The device is automatically recognised, without the need to manually type out the serial port.
 
 ## Example
 
